@@ -13,7 +13,7 @@ The objective of this project is to understand which indicators contribute to ha
 The workflow includes:
 
 - Python ETL for cleaning and merging datasets
-- Storage of the final dataset in a database accessed via DBeaver
+- Storage of the final dataset in a PostgreSQL database hosted on Neon
 - Dashboard creation in Power BI
 - Machine learning models (Random Forest, XGBoost)
 - Deployment of an interactive Streamlit application using Docker and Hugging Face
@@ -28,7 +28,7 @@ Pipeline summary:
 
 1. Raw datasets (World Happiness Report and World Bank)
 2. Python ETL process (cleaning, merging, ISO code harmonization)
-3. Final dataset stored in a database (accessed with DBeaver)
+3. Final dataset stored in a PostgreSQL database hosted on Neon
 4. Two main branches:
    - Power BI dashboards connected directly to the database
    - Machine Learning models trained from the same dataset
