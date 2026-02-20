@@ -26,8 +26,6 @@ world-happiness-predictor/
 Créer un Space sur huggingface.co/spaces
 
 Type : Docker
-SDK : Streamlit (optionnel, mais aide l'UI)
-
 
 Pousser les fichiers
 
@@ -43,3 +41,4 @@ Attendre le build (2–5 min)
 
 Docker build → pull des données → démarrage de Streamlit
 L'app est accessible à https://huggingface.co/spaces/YOUR_USERNAME/world-happiness
+
